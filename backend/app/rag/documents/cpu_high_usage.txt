@@ -1,0 +1,37 @@
+AEGIS Runbook: High CPU Usage
+
+Problem:
+High CPU usage can indicate an overloaded system, runaway process, background task, or application failure.
+
+Initial Checks:
+1. Check overall CPU usage.
+2. Identify processes consuming the most CPU.
+3. Check whether a single process is continuously consuming excessive CPU.
+4. Check whether CPU usage returns to normal after a short period.
+
+Possible Causes:
+- Runaway application process
+- Infinite loop or application bug
+- Heavy background task
+- Malware or unwanted process
+- System update or maintenance activity
+- Excessive workload
+
+Investigation:
+If CPU usage is high, inspect the top CPU-consuming processes.
+Compare the current process list with previous observations.
+Determine whether the high CPU usage is caused by one process or system-wide workload.
+
+Safe Recovery:
+- Stop unnecessary application processes when appropriate.
+- Restart the affected application if it is unresponsive.
+- Reduce unnecessary workload.
+- If the process is critical, do not terminate it without human approval.
+
+Verification:
+After recovery, check CPU usage again.
+Confirm that CPU usage has decreased.
+Confirm that the affected process is no longer consuming abnormal CPU resources.
+
+Escalation:
+If CPU usage remains high after safe recovery, create or escalate an incident for deeper investigation.
