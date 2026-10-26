@@ -1,9 +1,14 @@
 fastapi
 uvicorn[standard]
 sqlalchemy
+psycopg[binary]
 psycopg2-binary
 pydantic
 prometheus-client
 prometheus-fastapi-instrumentator
 psutil
-psycopg[binary]
+python-jose[cryptography]
+passlib[bcrypt]
+chromadb
+sentence-transformers
+ollama
