@@ -6,3 +6,4 @@ pydantic
 prometheus-client
 prometheus-fastapi-instrumentator
 psutil
+psycopg[binary]
